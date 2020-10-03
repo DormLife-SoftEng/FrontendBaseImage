@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
 
-  frondend:
+  frontend:
     container_name: frondend-dev
     build:
       context: .
