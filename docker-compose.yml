@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   frontend:
-    container_name: frondend-dev
+    container_name: frontend-dev
     build:
       context: .
       dockerfile: Dockerfile
