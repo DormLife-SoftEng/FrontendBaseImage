@@ -4,7 +4,7 @@ on:
   push:
     # Publish `master` as Docker `latest` image.
     branches:
-      - master
+      - main
     paths-ignore:
         - 'README.md'
     # Publish `v1.2.3` tags as releases.
@@ -15,7 +15,7 @@ on:
   # Run tests for every PRs on master
   pull_request:
     branches:
-      - master
+      - main
     tags-ignore:
       - '[WIP]*'
 
